@@ -1,0 +1,21 @@
+# Ignore everything by default, then allow only runtime files
+*
+
+!Dockerfile
+!requirements.txt
+!app.py
+!bootstrap_models.py
+!feature_store.py
+!schemas.py
+
+
+!train_burnout_model.py
+!train_risk_model.py
+!train_cost_overrun_model.py
+!train_task_estimation_model.py
+!train_resource_recommendation_model.py
+!mental_health_workplace_survey.csv
+!project_risk_raw_dataset.csv
+!CESAW_task_fact.csv
+!wbs_parent.csv
+!Extended_Employee_Performance_and_Productivity_Data.csv

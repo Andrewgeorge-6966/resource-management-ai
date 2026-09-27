@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated model artifacts (rebuild with bootstrap_models.py)
+*.joblib
+*.pkl
+
+# Local internship planning documents and ownership-sensitive files
+AI Features copy.docx
+AI_Model_Backend_Data_Requirements.xlsx
+LICENSE
+
+# Notebook and operating-system artifacts
+.ipynb_checkpoints/
+.DS_Store
+
+# Logs and coverage
+*.log
+.coverage
+htmlcov/
+
